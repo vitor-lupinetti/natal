@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: lightcoral;
+}
+
+button{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    background: lightgreen;
+    font-size: 20px;
+}

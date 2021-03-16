@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <h1>Descubra se é natal.</h1>
+            <button onclick="isChristmas()">É natal?</button>
+        </div>
+    </div>
+
+    
+</body>
+<script>
+    function isChristmas(){
+        var now = new Date();
+        var stringDate = now.getDate() + '/'+  (now.getMonth() + 1);
+
+        if(stringDate === "25/12"){
+            alert("Hoje é natal");
+        }else{
+            alert("Hoje não é natal");
+        }
+    }
+</script>
+</html>
